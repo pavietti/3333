@@ -13,4 +13,5 @@ if __name__ == "__main2__":
     print(sw2)
     sw3=sw2
     CB1 = CircuirBreaker()
+    CB1.turn(1)
 pass
