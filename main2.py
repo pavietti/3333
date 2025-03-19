@@ -1,3 +1,4 @@
+from circuit_breaker import CircuirBreaker
 from switch import Switch
 
 
@@ -11,4 +12,5 @@ if __name__ == "__main2__":
     sw2=Switch()
     print(sw2)
     sw3=sw2
-    pass
+    CB1 = CircuirBreaker()
+pass
